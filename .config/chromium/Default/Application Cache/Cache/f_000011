@@ -1,0 +1,454 @@
+
+
+
+<!doctype html>
+
+<!--[if IE 8]> <html class="lt-ie10 lt-ie9 ie8" lang="es"> <![endif]-->
+<!--[if IE 9]> <html class="lt-ie10 ie9" lang="es"> <![endif]-->
+<!--[if gt IE 9] <!-->
+    
+        <html lang="es" manifest="/appcacheDesktop?v=11.2.5.2">
+    
+<!--<![endif]-->
+
+<head>
+    
+        <noscript><meta http-equiv="refresh" content="0; url=/?noJS=1" /></noscript>
+    
+
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Vw8OVVFAAAMBXFJUDg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script>
+    <meta charset="utf-8"/>
+    
+        <title>Preguntas - MercadoLibre</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+        <meta name="theme-color" content="#fff059">
+        <link rel="shortcut icon" href="https://static.mlstatic.com/org-img/ui/ml/favicon/favicon-1.0.0.ico"/>
+    
+    
+    <link rel="apple-touch-icon" href="https://static.mlstatic.com/org-img/ui/ml/apple-touch-icon/2.0.0/60x60-precomposed.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://static.mlstatic.com/org-img/ui/ml/apple-touch-icon/2.0.0/76x76-precomposed.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="https://static.mlstatic.com/org-img/ui/ml/apple-touch-icon/2.0.0/120x120-precomposed.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="https://static.mlstatic.com/org-img/ui/ml/apple-touch-icon/2.0.0/152x152-precomposed.png"/>
+
+    
+    
+    <style>
+        @charset "UTF-8";@font-face{font-family:navigation;src:url(//static.mlstatic.com/org-img/ui/navigation/2.0.0/navigation-full.eot?93575983);src:url(//static.mlstatic.com/org-img/ui/navigation/2.0.0/navigation-full.eot?93575983#iefix) format('embedded-opentype'),url(//static.mlstatic.com/org-img/ui/navigation/2.0.0/navigation-full.woff?93575983) format('woff'),url(//static.mlstatic.com/org-img/ui/navigation/2.0.0/navigation-full.ttf?93575983) format('truetype'),url(//static.mlstatic.com/org-img/ui/navigation/2.0.0/navigation-full.svg?93575983#navigation-lite) format('svg');font-style:normal;font-weight:400}[class*=' nav-icon-'],[class^=nav-icon-]{font-style:normal}[class*=' nav-icon-']:before,[class^=nav-icon-]:before{font-variant:normal;margin:0;speak:none;text-align:center;width:1em;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:none;font-family:navigation}.nav-icon-help:before{content:'\e800'}.nav-icon-user:before{content:'\e801'}.nav-icon-search:before{content:'\e802'}.nav-icon-notifications:before{content:'\e803'}.nav-icon-bookmarks:before{content:'\e804'}.nav-icon-logout:before{content:'\e805'}.nav-icon-chevron-right:before{content:'\e806'}.nav-icon-chevron-up:before{content:'\e807'}.nav-icon-twitter:before{content:'\e808'}.nav-icon-facebook:before{content:'\e809'}.nav-icon-gplus:before{content:'\e810'}*,:after,:before{box-sizing:border-box}body,html{height:100%;margin:0;padding:0;width:100%}body{border-collapse:collapse;display:table;background-color:#fff;font-family:Arial,Helvetica,'Nimbus Sans L',sans-serif;font-size:14px;table-layout:fixed}body.nav-contextual{background-color:#f7f7f7}.nav-footer,.nav-header{width:100%}[role=main]{height:100%;display:table-row}[role=main] .nav-bounds{box-sizing:border-box}[role=main] .nav-bounds[class*=ch-box-]{border:none;background-color:transparent}.nav-bounds{display:block;padding:0 10px;margin:0 auto}#nav-header-user-switch,.nav-footer-access,.nav-footer-navigation,.nav-footer-secondaryinfo,.nav-header-user-layer a:last-child,[for=nav-header-user-switch]{display:none}.nav-header{background-color:#fff059;color:#5b562f;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;cursor:default;border-bottom:1px solid #d9d9d9;box-sizing:border-box}.nav-header .nav-bounds{position:relative;padding:44px 0 0}.nav-header *,.nav-header :after,.nav-header :before{box-sizing:border-box}[for=nav-header-menu-switch]{position:absolute;top:0;right:0;height:44px;width:54px;cursor:pointer}#nav-header-menu-switch{display:none}#nav-header-menu-switch:checked+.nav-header-menu-wrapper .nav-header-menu-switch-icon{background-color:transparent}#nav-header-menu-switch:checked+.nav-header-menu-wrapper .nav-header-menu-switch-icon:before{-webkit-transform:translate(0,8px) rotate(40deg);-ms-transform:translate(0,8px) rotate(40deg);transform:translate(0,8px) rotate(40deg)}#nav-header-menu-switch:checked+.nav-header-menu-wrapper .nav-header-menu-switch-icon:after{-webkit-transform:translate(0,-8px) rotate(-40deg);-ms-transform:translate(0,-8px) rotate(-40deg);transform:translate(0,-8px) rotate(-40deg)}#nav-header-menu-switch:checked+.nav-header-menu-wrapper #nav-header-menu{display:block}.nav-header-menu-switch-icon,.nav-header-menu-switch-icon:after,.nav-header-menu-switch-icon:before{position:absolute;display:block;width:26px;height:4px;background-color:#716C37;top:50%;border-radius:2px;-webkit-transition:all 100ms ease-out;transition:all 100ms ease-out}.nav-header-menu-switch-icon{left:14px;margin-top:-2px}.nav-header-menu-switch-icon:before{content:'';top:-8px}.nav-header-menu-switch-icon:after{content:'';top:8px}#nav-header-menu:after,#nav-header-menu:before{border-style:solid;border-color:transparent;position:absolute;bottom:100%;-webkit-transform:translateY(1px);-ms-transform:translateY(1px);transform:translateY(1px);content:''}#nav-header-menu{background-color:#fff;display:none;position:relative}#nav-header-menu a{display:block;height:44px;padding:0 10px;font-size:13px;line-height:44px;color:#999;border-top:1px solid #eaeaea;position:relative}#nav-header-menu a:first-child{border-top-color:#d9d9d9}#nav-header-menu a:after{position:absolute;top:0;right:20px;display:block;content:'\e806';font-family:navigation;color:#a6a6a6}#nav-header-menu .bookmarks-widget{display:none}#nav-header-menu:before{border-bottom-color:#d9d9d9;border-width:8px;right:19px}#nav-header-menu:after{border-width:7px;border-bottom-color:#fff;right:20px}.nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/small.png);background-repeat:no-repeat;height:32px;overflow:hidden;text-indent:-999px;width:47px;top:6px;position:absolute;left:10px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/small@2x.png);background-size:47px 32px}}.nav-search{position:absolute;left:67px;top:0;right:54px;height:44px;padding:5px 0}.nav-header-lite .nav-search{display:none}input[type=text].nav-search-input{border:1px solid #ccc;color:#444;font-size:16px;border-radius:5px;width:100%;height:100%;margin:0;background-color:#fff;padding:6px 35px 6px 6px}input[type=text].nav-search-input:focus{box-shadow:0 0 5px rgba(117,127,16,.2);border:1px solid #ccc;padding:6px 35px 6px 6px;outline:0}input[type=text].nav-search-input.ch-autocomplete-loading{background-position:right 30px center}button.nav-search-btn,button.nav-search-btn:focus{position:absolute;top:0;right:0;height:44px;padding:0;width:36px;background:0 0;border:none;font-size:18px;color:#777;line-height:1em;outline:0}.nav-icon-search:before{display:inline-block}.nav-icon-search span{display:none}.nav-footer{color:#999;font-size:13px;overflow:hidden;box-sizing:border-box}.nav-footer *,.nav-footer :after,.nav-footer :before{box-sizing:border-box}.nav-footer-copyright{font-size:inherit;margin:15px 0;display:inline-block}.nav-footer-user{padding:12px;background-color:#f7f7f7;border-radius:5px}.nav-footer-user .nav-footer-registration{margin-right:1em}.nav-contextual .nav-footer-user{border-bottom:1px solid #eee;background-color:transparent;border-radius:0;padding-left:0;padding-right:0}#nav-footer-access-switch{display:none}.nav-header-btn{background-image:-webkit-linear-gradient(transparent 25%,rgba(99,99,99,.12));background-image:linear-gradient(transparent 25%,rgba(99,99,99,.12));border:1px solid rgba(0,0,0,.15);border-radius:4px;box-shadow:inset 0 1px rgba(255,255,255,.75);font-size:13px;height:30px;left:7px;line-height:30px;padding:0 10px;position:absolute;text-shadow:0 1px rgba(255,255,255,.75);top:7px}.nav-header-btn:active{background-image:-webkit-linear-gradient(rgba(99,99,99,.12) 25%,rgba(99,99,99,.2));background-image:linear-gradient(rgba(99,99,99,.12) 25%,rgba(99,99,99,.2));box-shadow:inset 0 1px rgba(99,99,99,.2)}.nav-header-btn+.nav-header-btn{left:auto;right:7px}.nav-header-btn,.nav-header-btn:visited,a.nav-header-btn,a.nav-header-btn:hover,a.nav-header-btn:link,a.nav-header-btn:visited{color:#5b562f;text-decoration:none}.nav-title{font-size:1.2em;line-height:44px;margin:0;text-align:center;text-shadow:0 1px rgba(255,255,255,.75);font-weight:400;position:absolute;top:0;left:0;right:0;padding:0 54px 0 65px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nav-logo,.nav-search{display:none}
+        .nav-header-menu-wrapper{display:none}#nav-header-menu .notifications-widget {display:none}
+        @media (min-width:768px){.nav-header-menu-wrapper{display:block}[class*=' nav-icon-']:before,[class^=nav-icon-]:before{display:inline-block}[class*=' nav-icon-'] span,[class^=nav-icon-] span{display:none}body,html{font-size:13px;background-color:#fff}.nav-contextual [role=main] .nav-bounds{margin-top:40px;max-width:768px;padding:0}.nav-contextual [role=main] .nav-bounds[class*=ch-box-]{border:1px solid #dedede;background-color:#fff}.nav-bounds{max-width:1220px}.nav-footer-user,.nav-header-btn,.nav-title{display:none}.nav-header{background-image:none;height:54px}.nav-header .nav-bounds{padding:0 0 0 220px;height:54px}.nav-header-lite #nav-header-menu{display:block}[for=nav-header-menu-switch]{display:none}#nav-header-menu{display:block;font-size:0;margin:0 0 0 10px;background-color:transparent;float:right;height:54px}#nav-header-menu a{display:inline;height:auto;border-top:none;color:#918B3F;text-decoration:none;border-left:1px solid #dccf50;padding:6px 13px;line-height:54px;font-size:13px}#nav-header-menu a:first-child{border-left:none}#nav-header-menu a:after{display:none}#nav-header-menu a:hover{color:#716D39}#nav-header-menu a:hover i:before{color:#4E4C2F}#nav-header-menu a.bookmarks-widget,#nav-header-menu a.notifications-widget{border-left:none;padding-left:0;display:inline}#nav-header-menu i:before{color:#716C37;vertical-align:middle;font-size:18px;text-shadow:0 1px rgba(255,255,255,.75)}#nav-header-menu i.nav-icon-help:before{font-size:19px}#nav-header-menu i span{font-size:13px}#nav-header-menu .nav-icon-user{pointer-events:none}#nav-header-menu .nav-icon-user:before{margin-left:5px}#nav-header-menu:after,#nav-header-menu:before,[data-site=MLB] #nav-header-menu .nav-icon-help:before,[data-site=MPT] #nav-header-menu .nav-icon-help:before{display:none}[data-site=MLB] #nav-header-menu .nav-icon-help span,[data-site=MPT] #nav-header-menu .nav-icon-help span{display:inline-block}.nav-header-user{display:inline-block;position:relative;height:44px;line-height:44px}[for=nav-header-user-switch]{cursor:pointer;font-size:11px;color:#918B3F;margin:0 13px;padding:10px 0;text-transform:uppercase;display:inline}[for=nav-header-user-switch]:hover{color:#716D39}#nav-header-menu [for=nav-header-user-switch]:hover i:before{color:#4E4C2F}.ie8 [for=nav-header-user-switch],.lt-ie9 [for=nav-header-user-switch]{margin:0}.ie8 #nav-header-menu [for=nav-header-user-switch] a,.lt-ie9 #nav-header-menu [for=nav-header-user-switch] a{font-size:11px}#nav-header-user-switch{display:none}#nav-header-user-switch:checked+.nav-header-user-layer{display:block}.nav-header-user-layer{background-color:#fff;border:1px solid #dedede;border-radius:5px;box-shadow:2px 2px 2px rgba(99,99,99,.2);right:6px;position:absolute;top:100%;z-index:1;width:150px;display:none}.nav-header-user-layer:after,.nav-header-user-layer:before{border:outset transparent;border-bottom-style:solid;bottom:100%;content:'';display:block;height:0;pointer-events:none;position:absolute;width:0}.nav-header-user-layer:before{border-bottom-color:#dedede;border-width:8px;right:7px}.nav-header-user-layer:after{border-bottom-color:#fff;border-width:7px;right:8px}#nav-header-menu .nav-header-user-layer a{color:#000;display:block;line-height:25px;margin:3px 0;padding:5px 15px;text-decoration:none;border-left:none}#nav-header-menu .nav-header-user-layer a:last-child{display:block}#nav-header-menu .nav-header-user-layer a:hover{color:#000;background-color:#fefbd6}.nav-logo{background-repeat:no-repeat;display:inline-block;overflow:hidden;text-indent:-999px;position:absolute;left:10px;background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/mercadolibre.png);height:40px;top:7px;width:159px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/small@2x.png);background-size:47px 32px}}[data-site=MLB] .nav-logo,[data-site=MPT] .nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/mercadolivre.png)}.nav-header-lite .nav-logo{display:inline-block}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/mercadolibre@2x.png);background-size:159px 40px}[data-site=MLB] .nav-logo,[data-site=MPT] .nav-logo{background-image:url(//static.mlstatic.com/org-img/ui/ml/logo/2.0.0/mercadolivre@2x.png)}}.nav-search{padding:7px 5px;overflow:auto;max-width:540px;height:54px;position:relative;left:-5px}input[type=text].nav-search-input{padding:5px 60px 5px 15px;border-radius:3px}input[type=text].nav-search-input:focus{padding:5px 60px 5px 15px}input[type=text].nav-search-input .ch-autocomplete-loading{background-position:right 10px center}button.nav-search-btn,button.nav-search-btn:focus{border-radius:0 3px 3px 0;width:46px;height:40px;border:1px solid #ccc;background-color:#fff;background-image:-webkit-linear-gradient(#fff,#f1f1f1);background-image:linear-gradient(#fff,#f1f1f1);top:7px;right:5px}.nav-footer{background-color:#f7f7f7;border-top:1px solid #eee;line-height:1}.nav-footer .nav-bounds{padding-top:15px;padding-bottom:15px}.nav-footer-copyright{margin:0}.nav-footer-navigation{display:inline-block;font-size:0}.nav-footer-navigation a{border-right:1px solid #ddd;font-size:13px;padding:0 10px}.nav-footer-navigation a:last-of-type{border-right:none}.nav-footer-secondaryinfo{display:block;margin:7.5px 0 0}.nav-footer-access{display:block;position:relative;box-sizing:border-box}.nav-footer-access [for=nav-footer-access-switch] i:before{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.nav-footer-access *,.nav-footer-access :after,.nav-footer-access :before{box-sizing:border-box}#nav-footer-access-switch:checked+.nav-footer-access .nav-footer-access-content{max-height:0;border-top:none}#nav-footer-access-switch:checked+.nav-footer-access [for=nav-footer-access-switch] i:before{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}[for=nav-footer-access-switch]{background-color:#f7f7f7;border:1px solid #eee;border-bottom:none;color:#666;cursor:pointer;padding:0 20px;height:32px;line-height:32px;position:absolute;left:50%;bottom:100%;-webkit-transform:translate(-50%,1px);-ms-transform:translate(-50%,1px);transform:translate(-50%,1px);border-radius:5px 5px 0 0;z-index:1}[for=nav-footer-access-switch] i{margin-left:2px;font-size:11px;top:-1px;position:relative}[for=nav-footer-access-switch] i:before{-webkit-transition:all 200ms linear;transition:all 200ms linear}.ie8 [for=nav-footer-access-switch],.lt-ie9 [for=nav-footer-access-switch]{display:none}.nav-footer-access-content{line-height:0;max-height:155px;overflow:hidden;-webkit-transition:max-height 200ms linear;transition:max-height 200ms linear;font-size:0;background-color:#f7f7f7;border-top:1px solid #eee;margin-top:64px;position:relative;bottom:0}.nav-footer-access-content a,.nav-footer-access-content a:active,.nav-footer-access-content a:link,.nav-footer-access-content a:visited{color:#999;text-decoration:none}.nav-footer-access-content a:hover{text-decoration:underline}.nav-footer-access-content [class^=nav-icon-]:before{font-size:18px;margin-right:7px;vertical-align:top}.nav-footer-access-content .nav-icon-twitter:before{font-size:20px;margin-right:5px}.nav-footer-access-col{width:20%;font-size:13px;display:inline-block;vertical-align:top;line-height:20px;margin:15px 0}.nav-footer-access-col ul{padding:0;margin:0;list-style:none}.nav-footer-access-title{color:#666;font-weight:700;margin:0 0 5px;font-size:13px}.nav-search{display:block}}
+        /* Myml Side Navigation */
+        .mobile .myml-menu-navigation{display:none}.myml-menu-navigation{position:absolute;user-select:none;display:block;float:left;width:17%;width:210px;padding:0;z-index:1}.myml-menu-navigation .myml-menu-options{overflow:visible}.myml-menu-navigation label{border-radius:5px;cursor:pointer;font-size:14px;font-weight:700;position:relative;background:#333;color:#F0F0F0;padding:12px 20px 13px 35px;display:inline-block}.myml-menu-navigation label:before{content:"";width:0;height:0;border-top:5px solid transparent;border-left:5px solid #F0F0F0;border-bottom:5px solid transparent;position:absolute;left:16px;top:16px}#myml-menu{padding:20px 8px;overflow:hidden;background:#fff;border-bottom-left-radius:5px;border-bottom-right-radius:5px;box-shadow:2px 1px 5px #888}.mymlMenu li a,.mymlMenu li>span{position:relative;display:block;padding:5px 10px;margin-bottom:5px;line-height:18px;color:#333;border-radius:5px;cursor:pointer}.mymlMenu li a:hover,.mymlMenu li>span:hover{background:#FDF9D5;text-decoration:none}.mymlMenu li>span:after{font-family:icons;content:"\f0da";position:absolute;top:6px;right:7px;color:#999;text-decoration:none}.mymlMenu li>span.on:after{top:4px;right:10px;transform:rotate(90deg)}.mymlMenu li>span.on+ul{max-height:190px;margin-bottom:10px}.mymlMenu>li ul{font-size:12px;max-height:0;overflow:hidden;transition:all 250ms ease-out}.mymlMenu>li ul li a{margin-bottom:3px;padding:3px 15px;list-style:disc inside;display:list-item}.app-container{margin-top:70px}.ch-menu-on{font-weight:700}span.on{background:#f7f7f7}span.on:hover{background:#FDF9D5}@media (min-width:1024px){.myml-menu-navigation{position:relative;padding:0 24px 0 0;min-height:380px}.myml-menu-navigation label{display:none}.myml-menu-options.css-dropdown-options{display:block;height:auto}#myml-menu{box-shadow:0 8px 4px -4px #EEE;border-radius:0;padding:0 0 20px}.app-container{margin-top:0}
+    </style>
+
+
+
+    
+    
+        <!--[if lt IE 9]>
+            <script src="https://static.mlstatic.com/org-img/ch/vendor/html5shiv/html5shiv-3.7.0.js"></script>
+            <link rel="stylesheet" href="//questions.mlstatic.com/questions/navigation-f447b2c33e.css.gz"/>
+        <![endif]-->
+        <link rel="stylesheet" href="//questions.mlstatic.com/questions/main-74e0556f77.css.gz"/>
+        <link rel="stylesheet" href="https://ui.mlstatic.com/navigation/modeless-box/1.2.0/modeless-box.css" />
+    
+
+
+    <script type="text/javascript">
+        var user = {
+            nickname: "RAXIDIAN",
+            points: ("173" * 1)
+        };
+        var xssValidator = new RegExp("(<|>)","g");
+        var personalDataPreFilter = new RegExp("(mercadolibre.com|mercadolivre.com|m.{2}-[0-9]+)","g");
+        var personalDataValidator = new RegExp("([0-9,-]{5}|\\.com|@|c0m|arroba|arrova)","g");
+        var emailValidator = new RegExp("[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}","i");
+        var republishLink = "<a class='lnkMod u--no-visited' target='_blank' href='https://myaccount.mercadolibre.com.ar/listings/#label=pending'>";
+    </script>
+
+    <script type="text/javascript">
+(function(a,b){a.GoogleAnalyticsObject=b;a['MeliAnalyticsData'] = {'dimensions':''};a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date})(window,"meli_ga");
+meli_ga("set", "title", "app-myml-questions-0.9.2");
+meli_ga("set", "page", "/MYML/QUESTIONS/");
+meli_ga("set", "contentGroup1", "/NONE/MYML/QUESTIONS/");
+meli_ga("set", "contentGroup2", "/NONE/MYML/QUESTIONS/");
+meli_ga("set", "contentGroup3", "/NONE/MYML/QUESTIONS/");
+meli_ga("set", "dimension1", "desktop");
+meli_ga("set", "dimension7", "NONE");
+meli_ga("set", "dimension8", "NONE");
+meli_ga('send', 'pageview');
+(function(b,d){var a=b.createElement("iframe");(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; position: absolute";a.src="javascript:false";a.id="GoogleAnalyticsIframe";var c=b.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);a=a.contentWindow.document;a.open().write("<body onload=\"var js = document.createElement('script');js.src = '"+d+"';document.body.appendChild(js);\">");a.close()})(document,"https://analytics.mlstatic.com/ga/mla-ml-analytics.min.gz.js");
+</script>
+
+    
+    
+</head>
+
+<body class="https desktop js" data-device="desktop" data-site="MLA" data-country="AR" data-company="ML">
+
+    
+    
+        
+
+
+<header role="banner" class="nav-header nav-header-full">
+	<div class="nav-bounds">
+		<div class="nav-header-action-layer">
+			
+			<button class="nav-header-btn btn-back" rel="nofollow" onclick="history.back(); return false;">Cancelar</button>
+		</div>
+		<div class="nav-header-main-layer">
+			
+			<a class="nav-logo" href="http://www.mercadolibre.com.ar/" tabindex="1">
+				MercadoLibre - Donde compras y vendes de todo
+			</a>
+
+			
+			<input type="checkbox" id="nav-header-menu-switch"/>
+			<div class="nav-header-menu-wrapper">
+				
+				<label for="nav-header-menu-switch" aria-controls="nav-header-menu" data-fastclick>
+					<i class="nav-header-menu-switch-icon"></i>
+				</label>
+				
+				<nav id="nav-header-menu">
+					<div class="nav-header-user">
+						<label for="nav-header-user-switch" data-fastclick tabindex="4">
+							<!--[if lt IE 9]><a href="https://myaccount.mercadolibre.com.ar" rel="nofollow"><![endif]-->
+							<span data-js="user_nickname">RAXIDIAN</span> <i class="nav-icon-user"></i>
+							<!--[if lt IE 9]></a><![endif]-->
+						</label>
+						<input type="checkbox" id="nav-header-user-switch"/>
+						<nav class="nav-header-user-layer">
+							<a href="https://myaccount.mercadolibre.com.ar" rel="nofollow">Mi cuenta</a>
+							<a href="http://www.MercadoLibre.com/jms/mla/lgz/logout" rel="nofollow">Salir</a>
+						</nav>
+					</div>
+					
+						<a href="#" class="notifications-widget" rel="nofollow" tabindex="5"><i class="nav-icon-notifications"><span>Notificaciones</span></i></a>
+					
+					<a href="https://myaccount.mercadolibre.com.ar/bookmarks/list" class="bookmarks-widget" rel="nofollow" tabindex="6"><i class="nav-icon-bookmarks"><span>Favoritos</span></i></a>
+					<a href="http://syi.mercadolibre.com.ar/sell" rel="nofollow" tabindex="7">Vender</a>
+					<a href="http://www.mercadolibre.com.ar/ayuda_home" tabindex="8"><i class="nav-icon-help"><span>Ayuda</span></i></a>
+				</nav>
+			</div>
+
+			<form class="nav-search" action="//www.mercadolibre.com.ar/jm/search" method="GET" role="search">
+				<input type="text" class="nav-search-input" name="as_word" max-length="120" data-fastclick tabindex="2"/>
+				<button type="submit" class="nav-search-btn" data-fastclick tabindex="3">
+					<i class="nav-icon-search"><span>Buscar</span></i>
+				</button>
+			</form>
+		</div>
+	</div>
+</header>
+
+    
+    
+
+    <main role="main" id="main">
+        <div class="nav-bounds">
+            
+                <nav class="myml-menu-navigation pre-load-menu">
+                	<div class="css-dropdown">
+                		<input type="checkbox" class="css-dropdown-input" id="side-menu">
+                        <div class="css-dropdown-content">
+                            <label class="css-dropdown-label" for="side-menu">
+                				Mi cuenta
+                            </label>
+                            <div class="myml-menu-options css-dropdown-options">
+                				<ul id="myml-menu" class="mymlMenu ch-menu"><li id="MYML_SUMMARY"><a href="https://myaccount.mercadolibre.com.ar/summary">Resumen</a></li><li id="BILLING"><a href="https://myaccount.mercadolibre.com.ar/billing/#/facturacion">Facturaci&oacute;n</a></li><li id="REPUTATION"><a href="https://reputacion.mercadolibre.com.ar/myReputation">Reputaci&oacute;n</a></li><li id="MY_PURCHASES"><span>Compras</span><ul><li id="FAVORITES"><a href="https://myaccount.mercadolibre.com.ar/bookmarks/list">Favoritos</a></li><li id="BUYER_QUESTIONS"><a href="https://questions.mercadolibre.com.ar/buyer">Preguntas</a></li><li id="PURCHASES"><a href="https://myaccount.mercadolibre.com.ar/purchases/list">Compras</a></li><li id="AUCTIONS"><a href="https://myaccount.mercadolibre.com.ar/auctions/list">Subastas</a></li></ul></li><li id="MY_SALES"><span>Ventas</span><ul><li id="PUBLICATIONS"><a href="https://myaccount.mercadolibre.com.ar/listings/">Publicaciones</a></li><li id="SELLER_QUESTIONS"><a href="https://questions.mercadolibre.com.ar/seller">Preguntas</a></li><li id="MYML_SALES"><a href="https://myaccount.mercadolibre.com.ar/sales/list#type=recent">Ventas</a></li><li id="MY_CONTACTS"><a href="https://myaccount.mercadolibre.com.ar/contacts">Datos de mis interesados</a></li><li id="ADVERTISING"><a href="https://publicidad.mercadolibre.com.ar/advertising#publicidad">Campa&ntilde;a de publicidad</a></li></ul></li><li id="CONFIG"><span>Configuraci&oacute;n</span><ul><li id="MY_DETAILS"><a href="https://myaccount.mercadolibre.com.ar/profile">Datos personales</a></li><li id="SECURITY"><a href="https://accountrecovery.mercadolibre.com.ar/collect/userInfo">Seguridad</a></li><li id="MY_EMAILS"><a href="http://myaccount.mercadolibre.com.ar/preferences/emails">E-mails</a></li><li id="ESHOP"><a href="http://eshops.mercadolibre.com.ar/eshop">eShop</a></li></ul></li></ul>
+                			</div>
+                		</div>
+                	</div>
+                </nav>
+            
+
+            
+                
+            
+
+            
+
+
+            <section class="app-container clearfix" id="app-container">
+                
+                    <div class="ch-loading main-loading mobile-hidden"></div>
+
+                    
+                    <header class="myml-header skeleton skeleton--header">
+                        <div class="myml-header__nav">
+                            <div class="skeleton__back"></div>
+                        </div>
+                        <h1 class="myml-header__title nav-title">
+                            Cargando...
+                        </h1>
+                    </header>
+
+                    
+                    <div class="card skeleton skeleton--card">
+                        <div class="item item-header skeleton__item media-object" data-id="item-MLA3" data-js="item">
+                            <div class="media-object-img item__image">
+                                <div class="skeleton__img"></div>
+                            </div>
+                            <div class="media-object-content item__content">
+                                <div class="skeleton__p"></div>
+                                <div class="skeleton__p"></div>
+                                <div class="skeleton__p skeleton__p--short"></div>
+                            </div>
+                        </div>
+
+                        
+                        
+
+                    </div>
+                
+            </section>
+        </div>
+    </main>
+
+    
+        
+
+
+<div class="nav-footer-access">
+    <div class="nav-footer-access-content">
+        <div class="nav-bounds">
+            <div class="nav-footer-access-col">
+                <h5 class="nav-footer-access-title">Acerca de</h5>
+                <ul>
+                    
+                        <li><a href="http://institucional.mercadolibre.com/">MercadoLibre</a></li>
+                    
+                    
+                        <li><a href="http://investor.mercadolibre.com">Investor relations</a></li>
+                    
+                    
+                        <li><a href="http://www.mercadolibre.com.ar/sitemap.html">Mapa del Sitio</a></li>
+                    
+                    
+                        <li><a href="http://tendencias.mercadolibre.com.ar/">Tendencias</a></li>
+                    
+                </ul>
+            </div>
+            
+                <div class="nav-footer-access-col">
+                    <h5 class="nav-footer-access-title">Otros sitios</h5>
+                    <ul>
+                        
+                            <li><a href="http://www.mercadopago.com.ar">MercadoPago</a></li>
+                        
+                        
+                            <li><a href="http://mercadoclics.mercadolibre.com.ar">MercadoLibre Publicidad</a></li>
+                        
+                        
+                            <li><a href="http://www.mercadoshops.com.ar?fromFooterMYML">MercadoShops</a></li>
+                        
+                        
+                            <li><a href="http://envios.mercadolibre.com.ar">MercadoEnv&iacute;os</a></li>
+                        
+                    </ul>
+                </div>
+            
+            <div class="nav-footer-access-col">
+                <h5 class="nav-footer-access-title">Ayuda</h5>
+                <ul>
+                    <li><a href="http://ayuda.mercadolibre.com.ar/articulo/comprar-un-producto-1337029481860-000001241">Comprar</a></li>
+                    <li><a href="http://ayuda.mercadolibre.com.ar/categoria/vender-sell">Vender</a></li>
+                    <li><a href="http://ayuda.mercadolibre.com.ar/contacto">Resoluci&oacute;n de problemas</a></li>
+                    <li><a href="http://ayuda.mercadolibre.com.ar/categoria/seguridad-seg">Centro de Seguridad</a></li>
+                </ul>
+            </div>
+            <div class="nav-footer-access-col">
+                <h5 class="nav-footer-access-title">Mi cuenta</h5>
+                <ul>
+                    <li><a href="https://myaccount.mercadolibre.com.ar/summary/">Resumen</a></li>
+                    <li><a href="https://myaccount.mercadolibre.com.ar/bookmarks/list">Favoritos</a></li>
+                    <li><a href="https://vender.mercadolibre.com.ar/sell">Vender</a></li>
+                </ul>
+            </div>
+            <div class="nav-footer-access-col">
+                <h5 class="nav-footer-access-title">Redes sociales</h5>
+                <ul>
+                    <li><a href="https://twitter.com/Mercadolibre" class="nav-icon-twitter">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/MercadoLibre" class="nav-icon-facebook">Facebook</a></li>
+                    <li><a href="https://plus.google.com/+MercadoLibre" class="nav-icon-gplus">Google +</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer role="contentinfo" class="nav-footer">
+    <div class="nav-bounds">
+        
+        <p class="nav-footer-user">RAXIDIAN (<a href="http://www.MercadoLibre.com/jms/mla/lgz/logout" rel="nofollow">Salir</a>)</p>
+
+        <div class="nav-footer-primaryinfo">
+            <small class="nav-footer-copyright">
+                
+                    Copyright © 1999-2016 MercadoLibre S.R.L.
+                
+            </small>
+
+            <nav class="nav-footer-navigation">
+                <a href="http://www.mercadolibre.com.ar/seguro_terminos.html">T&eacute;rminos y condiciones</a>
+                <a href="http://www.mercadolibre.com.ar/seguro_privacidad.html">Pol&iacute;ticas de privacidad</a>
+                <a href="http://www.mercadolibre.com.ar/jm/ml.faqs.framework.main.FaqsController?pageId=home">Ayuda</a>
+            </nav>
+        </div>
+
+        
+    </div>
+</footer>
+
+    
+    
+    
+        
+
+
+<script>
+
+    if ( window.location.href.indexOf("_questions") < 0 && (window.location.hash == null || window.location.hash == "") ) {
+        window.location = "/seller";
+    }
+
+    //https://github.com/pablomoretti/jcors-loader
+    (function(e){function k(){for(var b=!0,a,g=l,c=d.length;g<c&&b;)if(a=d[g],void 0!==a&&null!==a){if("string"===typeof a){var f=m.cloneNode(!1);f.text=a;h.parentNode.insertBefore(f,h)}else a.apply(e);a=g;d[a]=null;l=a+1;g+=1}else b=!1}function f(){if(d.length){var b=d.pop(),a;"string"===typeof b?(a=m.cloneNode(!0),a.type="text/javascript",a.async=!0,a.src=b,a.onload=a.onreadystatechange=function(){if(!a.readyState||/loaded|complete/.test(a.readyState))a.onload=a.onreadystatechange=null,a=void 0,f()},
+h.parentNode.insertBefore(a,h)):(b.apply(e),f())}}function p(b,a){return function(){d[a]=b.responseText;k();b=void 0}}function q(){var b=arguments.length,a,c;for(a=0;a<b;a+=1)"string"===typeof arguments[a]?(c=i(arguments[a]),c.onload=p(c,d.length),d[d.length]=null,c.send()):(d[d.length]=arguments[a],k())}function r(){d.push(Array.prototype.slice.call(arguments,0).reverse());f()}var n=e.document,m=n.createElement("script"),h=n.getElementsByTagName("script")[0],d=[],l=0,i,c,j;e.XMLHttpRequest&&(c=new e.XMLHttpRequest,
+"withCredentials"in c?j=function(b){c=new e.XMLHttpRequest;c.open("get",b,!0);return c}:e.XDomainRequest&&(j=function(b){c=new e.XDomainRequest;c.open("get",b);return c}));i=j;e.JcorsLoader={load:i?q:r}})(window);
+
+    var bind = (window.addEventListener ? 'addEventListener' : 'attachEvent');
+    var prefix = (bind === 'addEventListener' ? '' : 'on');
+    window[bind](prefix + 'load', function () {
+        JcorsLoader.load(
+            'https://ui.mlstatic.com/navigation/modeless-box/1.2.0/modeless-box.js',
+            '//questions.mlstatic.com/questions/bundle__large-9879c3aea8.js.gz',
+            function () {
+
+                
+                    $('.configMultiple').click(function(evt){
+                        evt.preventDefault();
+                        MyAccountApp.Questions.modal.show($('#mutipleModal'));
+                        return false;
+                    });
+
+                    $(".multi").change(function(){
+                        var total = $(this).children(":selected").val();
+                        var divisionSelect = $(".multiDivision");
+                        divisionSelect.find('option').remove();
+                        for(var i=1; i<=total; i++){
+                            divisionSelect.append('<option value="' + i + '">' + i + '</option>');
+                        }
+                    });
+                
+
+                
+
+                    var bookmarksWidget = new Bookmarks({
+                        'trigger': document.querySelector('.bookmarks-widget'),
+                        'hostname': 'mercadolibre.com.ar'
+                    });
+
+                    /* FIX
+                        Cuando abris otro layer no se cierra el de bookmarks y viceversa
+                     */
+                    $('.bookmarks-widget').on('click', function () {
+                        layerNotifications.hide();
+                        $('#nav-header-user-switch').attr('checked', false);
+                    });
+
+                    $('.nav-icon-notifications').on('click', function () {
+                        $('#nav-header-user-switch').attr('checked', false);
+                    });
+
+                    $('.nav-icon-notifications, .nav-header-user').on('click', function () {
+                        bookmarksWidget.hide();
+                    });
+                    /* END FIX */
+
+
+                    meli.notifications.init({
+                        'text': {
+                            'header': "Notificaciones",
+                            'empty': "Por ahora, no hay nada aqu&iacute;."
+                        },
+                        'debug': false,
+                        'webkitOnOpen': true
+                    });
+
+                    var autocompleteConfig = {
+                        'searchForm': $('.nav-search'),
+                        'categoryCheckbox': $('#categorySearch'),
+                        'categoryCheckboxLabel': $('label[for="categorySearch"]'),
+                        'maxQueryLength': 35,
+                        'meliDomain': 'mercadolibre.com.ar/',
+                        'searchQuery': 'http://listado.mercadolibre.com.ar/$query',
+                        'suggestionsQuantity': 20,
+                        'siteId': "MLA",
+                        'platformId': 'ML',
+                        'officialStoreFiltersEnabled': 'true',
+                        'officialStoreFilterId': 'official_store',
+                        'messages':{
+                            'lastSearches': "&Uacute;ltimas b&uacute;squedas",
+                            'inOfficialStore': "en tienda oficial",
+                            'inAllOficialStores': "en todas las",
+                            'officalStoreName': "tiendas oficiales"
+                        },
+                        'isMobile': false
+                    };
+
+                    // Instance of autocomplete with chico 1.1.1 standalone
+                    autocomplete = new chs.Autocomplete($('.nav-search-input'), autocompleteConfig);
+
+                    // Position fixed when the autocomplete is ready
+                    autocomplete.on('ready', function (e) {
+                        // Fix temporal para issue #1217 en chico github
+                        this._popover.$container.css('position', this._options.position);
+                    });
+
+                    if ( autocomplete._el.value !== undefined && autocomplete._el.value !== null && autocomplete._el.value !== ''  ) {
+                        autocomplete._el.blur();
+                        autocomplete._el.focus();
+                        // autocomplete.emit("type","");
+                        autocomplete.on('type', function () {
+                            this.doSuggest();
+                        });
+                    }
+
+                    // Improve the #nav-header-menu behavior by closing when users click outside checkbox.
+                    (function (doc) {
+                        var input = doc.getElementById('nav-header-user-switch');
+                        // Only works when a user menu exists (for logged users)
+                        if (!input || !window.addEventListener) return;
+                        // Listen for every click on tag "html"
+                        // The support for IE8+ was dropped because of lack of support of :checked pseudo-selector
+                        doc.documentElement.addEventListener('click', function (ev) {
+                            // Avoid to close if I click on the trigger. In that case, it will use CSS
+                            if (input.checked && ev.target !== input && ev.target !== input.previousElementSibling) {
+                                input.checked = false;
+                            }
+                        });
+                    }(document));
+                
+            }
+        );
+    });
+
+</script>
+
+    
+    
+    
+</body>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"8018369","applicationTime":155,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"07d02feefb","transactionName":"MwdQbRZWVhEFUkUKXApNdUsFXlQRJ15fF0ELDl5cFhhLBwhdVBFiEQdBTQ1YVhFLWF8HVhw=","agent":"","errorBeacon":"bam.nr-data.net"}</script>
+
+</html>
+

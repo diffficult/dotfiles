@@ -1,0 +1,1932 @@
+{
+	"folder_history":
+	[
+		"/home/poole/.urxvt"
+	],
+	"last_version": 3114,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ZSH",
+						"ZSH_THEME"
+					],
+					[
+						"bind",
+						"bindsym"
+					],
+					[
+						"workspa",
+						"workspace2"
+					],
+					[
+						"ZS",
+						"ZSH_THEME"
+					],
+					[
+						"work",
+						"workspace1"
+					],
+					[
+						"workspace",
+						"workspace3"
+					],
+					[
+						"bin",
+						"bindsym"
+					],
+					[
+						"vol",
+						"volpercent"
+					],
+					[
+						"os-",
+						"osd-font"
+					],
+					[
+						"Pra",
+						"PragmataPro"
+					],
+					[
+						"workspac",
+						"workspace"
+					],
+					[
+						"br",
+						"brpercent"
+					],
+					[
+						"FA_",
+						"FA_PLUG"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 139.0,
+				"last_filter": "Package Control: inst",
+				"selected_items":
+				[
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"vmenu",
+						"View: Toggle Menu"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"vmen",
+						"View: Toggle Menu"
+					],
+					[
+						"key bindings user",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 472.0
+			},
+			"console":
+			{
+				"height": 132.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/poole/Dropbox/XNET/Debito/07/MAIL.txt",
+				"/home/poole/.i3/scripts/i3blocks5.conf",
+				"/home/poole/.i3/scripts/brightness",
+				"/home/poole/.config/sxhkd/sxhkdrc",
+				"/home/poole/.i3/scripts/volume",
+				"/home/poole/.weechat/weechat.conf",
+				"/home/poole/.config/xfce4/terminal/terminalrc",
+				"/home/poole/.tmux.conf",
+				"/home/poole/.zshrc",
+				"/home/poole/.i3/scripts/lock2",
+				"/home/poole/.i3/scripts/lock",
+				"/home/poole/.oh-my-zsh/themes/intheloop.zsh-theme",
+				"/home/poole/Dropbox/utils/mac/weechat/weechat.conf",
+				"/home/poole/.weechat/irc.conf",
+				"/usr/share/icons/Arc/index.theme",
+				"/home/poole/core",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0806.rendi",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0706.rendi",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0606.rendi",
+				"/home/poole/.i3/scripts/music",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/mail.txt",
+				"/home/poole/.i3/scripts/iconweather.sh",
+				"/home/poole/.Xresources",
+				"/home/poole/.ncmpcpp/config",
+				"/home/poole/.mpd/mpd.conf",
+				"/home/poole/Dropbox/XNET/Debito/05-mayo/DfuarCUOTAS1305.rendi",
+				"/home/poole/.i3/scripts/weather.sh",
+				"/home/poole/.config/compton.conf",
+				"/home/poole/.icons/arc-elementary/index.theme",
+				"/home/poole/.icons/vertex/index.theme",
+				"/home/poole/Downloads/urxvtclip",
+				"/home/poole/.i3/i3sampleconfig.conf",
+				"/home/poole/.i3/config",
+				"/home/poole/Downloads/install-dropbox-icons/install-dropbox-icons.sh",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS1204.rendi",
+				"/usr/share/icons/Faba/index.theme",
+				"/usr/share/icons/Moka/index.theme",
+				"/usr/share/icons/myelementary/index.theme",
+				"/home/poole/.icons/Pacifica/index.theme",
+				"/home/poole/.gtkrc-2.0",
+				"/home/poole/.config/gtk-3.0/settings.ini",
+				"/home/poole/Dropbox/utils/configs/router_colegio.txt",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS0404.rendi",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS0104.rendi",
+				"/home/poole/.config/user-dirs.dirs",
+				"/etc/xdg/user-dirs.defaults",
+				"/home/poole/.config/awesome/rc.lua.progotham",
+				"/home/poole/.config/awesome/rc.lua",
+				"/media/poole/GSP1RMCULXFRER_EN_DVD/autorun.inf",
+				"/home/poole/.i3/scripts/i3blocks3.conf",
+				"/home/poole/.i3/scripts/i3blocks4.conf",
+				"/home/poole/dev/i3blocklets/i3blocks.conf",
+				"/home/poole/Dropbox/XNET/Debito/abril.txt",
+				"/home/poole/.i3/scripts/volume2",
+				"/home/poole/.i3/scripts/battery2",
+				"/home/poole/.i3/scripts/wifi",
+				"/home/poole/.i3/scripts/temperature",
+				"/home/poole/.i3/scripts/wifitest",
+				"/home/poole/.i3/scripts/bright2.sh",
+				"/home/poole/.i3/scripts/bright.sh",
+				"/home/poole/Downloads/i3blocks/config",
+				"/home/poole/.i3/scripts/battery",
+				"/home/poole/.i3/scripts/cpu_usage",
+				"/home/poole/.i3/scripts/bandwidth.sh",
+				"/home/poole/Downloads/i3blocks/blocklets/network",
+				"/home/poole/.i3/scripts/partitions.sh",
+				"/home/poole/Downloads/i3blocks/blocklets/cpu_usage",
+				"/home/poole/.i3/scripts/memory",
+				"/home/poole/.config/mpv/mpv.conf",
+				"/home/poole/Dropbox/utils/cosas.txt",
+				"/home/poole/.tmux.conf.heart",
+				"/home/poole/random_stuff/Startpage/style.css",
+				"/home/poole/.config/mpv/lua-settings/torque-progressbar.conf",
+				"/home/poole/.livestreamerrc",
+				"/media/poole/XUBUNTU 15_/random_stuff/win10/livestreamerrc",
+				"/media/poole/XUBUNTU 15_/random_stuff/new_configs_xubuntu/mpv/input.conf",
+				"/media/poole/XUBUNTU 15_/random_stuff/new_configs_xubuntu/mpv/mpv.conf",
+				"/home/poole/.config/mpv/torque-progressbar.conf",
+				"/home/poole/.fehbg",
+				"/home/poole/.bashrc",
+				"/home/poole/Dropbox/utils/routermac.txt",
+				"/home/poole/.Xdefaults",
+				"/home/poole/.oh-my-zsh/themes/remy.zsh-theme",
+				"/home/poole/Dropbox/utils/configs/oh-my-zsh-theme/iterm2macbook.itermcolors",
+				"/home/poole/random_stuff/configs/oh-my-zsh-theme/mac_actual/remy.zsh-theme",
+				"/home/poole/random_stuff/configs/oh-my-zsh-theme/mac_actual/zshrcmac",
+				"/home/poole/.oh-my-zsh/themes/agnoster3.zsh-theme",
+				"/home/poole/.oh-my-zsh/themes/agnoster2.zsh-theme",
+				"/usr/share/icons/Paper/index.theme",
+				"/usr/share/icons/Adwaita/index.theme",
+				"/home/poole/dev/elementary-dropbox-mods/dropbox-elementary.sh",
+				"/home/poole/70-yes-bitmaps.conf",
+				"/home/poole/index.theme",
+				"/home/poole/random_stuff/configs/dot-files/bashrc_cyg",
+				"/home/poole/random_stuff/configs/dot-files/zshrc_cyg",
+				"/home/poole/.config/ranger/rc.conf",
+				"/home/poole/.i3/scripts/wallpaper.sh",
+				"/home/poole/random_stuff/primer_ncmpcppconf",
+				"/home/poole/70-force-bitmaps.conf",
+				"/home/poole/random_stuff/configs/firefox/tinyfirefox.css",
+				"/home/poole/random_stuff/configs/firefox/stylishcode.css",
+				"/home/poole/.i3/scripts/mpcPrevSong.sh",
+				"/home/poole/dev/shellscripts/hackertyper.sh",
+				"/home/poole/.config/gtk-2.0/gtkfilechooser.ini",
+				"/home/poole/.i3/scripts/tim",
+				"/home/poole/Downloads/configawesome",
+				"/home/poole/Downloads/Font-Awesome-4.5.0/README.md",
+				"/home/poole/.i3/scripts/i3blocks.conf",
+				"/home/poole/.i3/scripts/i3tray.conf",
+				"/home/poole/.i3/scripts/i3blocks2.conf",
+				"/etc/profile.d/infinality-settings.sh",
+				"/etc/fonts/conf.avail/52-infinality.conf",
+				"/home/poole/Dropbox/utils/sublime_license.txt",
+				"/home/poole/random_stuff/.config/gtk-2.0/gtkfilechooser.ini",
+				"/home/poole/random_stuff/.config/gtk-3.0/settings.ini",
+				"/home/poole/.nanorc",
+				"/home/poole/conf.nanorc",
+				"/home/poole/.i3/scripts/battery.py",
+				"/home/poole/.i3/scripts/i3lock-extra",
+				"/home/poole/.i3/scripts/lock2.sh",
+				"/home/poole/.compton.conf",
+				"/home/poole/.i3/scripts/lockmyi3",
+				"/home/poole/Downloads/i3blocks-1.4/scripts/lock.sh",
+				"/home/poole/.i3/scripts/load_average",
+				"/home/poole/.i3blocks.conf",
+				"/home/poole/.config/i3/config",
+				"/home/poole/dev/powerline_fonts/install.sh",
+				"/home/poole/Downloads/rofi-0.15.12/INSTALL.md"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"urxvt",
+					"geometry",
+					"savelines",
+					"url",
+					"launcher",
+					"URxvt*perl-lib:",
+					"firefox",
+					"URxvt*perl-ext-common:",
+					"URxvt.url-select",
+					"URxvt.url-select.launcher:",
+					"freenode",
+					"toggle",
+					"lock",
+					"URxvt.depth",
+					"cursorUnderline",
+					"colorize_config_reload_cb",
+					"set $base",
+					"status",
+					"set-option -g base-index 1",
+					"source",
+					"panel",
+					"bind_to_address",
+					"URxvt*background",
+					"$mod+Shift+w",
+					"$mod+p",
+					"$mod+Shift+p",
+					"lock",
+					"battery",
+					"$mod+Shift+s",
+					"i3lock",
+					"smart",
+					"new_window",
+					"256color"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"URxvt",
+					"rizon"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 21.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"#weechat"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 124.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"no",
+						"no-startup-id"
+					],
+					[
+						"ZSH",
+						"ZSH_THEME"
+					],
+					[
+						"bind",
+						"bindsym"
+					],
+					[
+						"workspa",
+						"workspace2"
+					],
+					[
+						"ZS",
+						"ZSH_THEME"
+					],
+					[
+						"work",
+						"workspace1"
+					],
+					[
+						"workspace",
+						"workspace3"
+					],
+					[
+						"bin",
+						"bindsym"
+					],
+					[
+						"vol",
+						"volpercent"
+					],
+					[
+						"os-",
+						"osd-font"
+					],
+					[
+						"Pra",
+						"PragmataPro"
+					],
+					[
+						"workspac",
+						"workspace"
+					],
+					[
+						"br",
+						"brpercent"
+					],
+					[
+						"FA_",
+						"FA_PLUG"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/poole/.i3/config",
+					"settings":
+					{
+						"buffer_size": 15379,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/.i3/scripts/i3blocks5.conf",
+					"settings":
+					{
+						"buffer_size": 1927,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/Dropbox/utils/configs/router_colegio.txt",
+					"settings":
+					{
+						"buffer_size": 3102,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/Dropbox/utils/cosas.txt",
+					"settings":
+					{
+						"buffer_size": 187,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/Dropbox/utils/lista_debitos.txt",
+					"settings":
+					{
+						"buffer_size": 438,
+						"line_ending": "Unix",
+						"name": "lista_debitos.txt"
+					}
+				},
+				{
+					"file": "/home/poole/.Xresources",
+					"settings":
+					{
+						"buffer_size": 4666,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/.Xdefaults",
+					"settings":
+					{
+						"buffer_size": 1794,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/poole/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 241,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 139.0,
+				"last_filter": "Package Control: inst",
+				"selected_items":
+				[
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"vmenu",
+						"View: Toggle Menu"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"vmen",
+						"View: Toggle Menu"
+					],
+					[
+						"key bindings user",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 472.0
+			},
+			"console":
+			{
+				"height": 132.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/poole/.tmux.conf",
+				"/home/poole/.config/awesome/vicious/widgets/gmail.lua",
+				"/home/poole/.config/awesome/rc.lua",
+				"/home/poole/.config/awesome/themes/pro-gotham/theme.lua",
+				"/home/poole/.config/awesome/rc.lua.progotham",
+				"/home/poole/Dropbox/XNET/Debito/07/MAIL.txt",
+				"/home/poole/.i3/scripts/i3blocks5.conf",
+				"/home/poole/.i3/scripts/brightness",
+				"/home/poole/.config/sxhkd/sxhkdrc",
+				"/home/poole/.i3/scripts/volume",
+				"/home/poole/.weechat/weechat.conf",
+				"/home/poole/.config/xfce4/terminal/terminalrc",
+				"/home/poole/.zshrc",
+				"/home/poole/.i3/scripts/lock2",
+				"/home/poole/.i3/scripts/lock",
+				"/home/poole/.oh-my-zsh/themes/intheloop.zsh-theme",
+				"/home/poole/Dropbox/utils/mac/weechat/weechat.conf",
+				"/home/poole/.weechat/irc.conf",
+				"/usr/share/icons/Arc/index.theme",
+				"/home/poole/core",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0806.rendi",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0706.rendi",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/DfuarCUOTAS0606.rendi",
+				"/home/poole/.i3/scripts/music",
+				"/home/poole/Dropbox/XNET/Debito/06-junio/mail.txt",
+				"/home/poole/.i3/scripts/iconweather.sh",
+				"/home/poole/.Xresources",
+				"/home/poole/.ncmpcpp/config",
+				"/home/poole/.mpd/mpd.conf",
+				"/home/poole/Dropbox/XNET/Debito/05-mayo/DfuarCUOTAS1305.rendi",
+				"/home/poole/.i3/scripts/weather.sh",
+				"/home/poole/.config/compton.conf",
+				"/home/poole/.icons/arc-elementary/index.theme",
+				"/home/poole/.icons/vertex/index.theme",
+				"/home/poole/Downloads/urxvtclip",
+				"/home/poole/.i3/i3sampleconfig.conf",
+				"/home/poole/.i3/config",
+				"/home/poole/Downloads/install-dropbox-icons/install-dropbox-icons.sh",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS1204.rendi",
+				"/usr/share/icons/Faba/index.theme",
+				"/usr/share/icons/Moka/index.theme",
+				"/usr/share/icons/myelementary/index.theme",
+				"/home/poole/.icons/Pacifica/index.theme",
+				"/home/poole/.gtkrc-2.0",
+				"/home/poole/.config/gtk-3.0/settings.ini",
+				"/home/poole/Dropbox/utils/configs/router_colegio.txt",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS0404.rendi",
+				"/home/poole/Dropbox/XNET/Debito/04-abril/DfuarCUOTAS0104.rendi",
+				"/home/poole/.config/user-dirs.dirs",
+				"/etc/xdg/user-dirs.defaults",
+				"/media/poole/GSP1RMCULXFRER_EN_DVD/autorun.inf",
+				"/home/poole/.i3/scripts/i3blocks3.conf",
+				"/home/poole/.i3/scripts/i3blocks4.conf",
+				"/home/poole/dev/i3blocklets/i3blocks.conf",
+				"/home/poole/Dropbox/XNET/Debito/abril.txt",
+				"/home/poole/.i3/scripts/volume2",
+				"/home/poole/.i3/scripts/battery2",
+				"/home/poole/.i3/scripts/wifi",
+				"/home/poole/.i3/scripts/temperature",
+				"/home/poole/.i3/scripts/wifitest",
+				"/home/poole/.i3/scripts/bright2.sh",
+				"/home/poole/.i3/scripts/bright.sh",
+				"/home/poole/Downloads/i3blocks/config",
+				"/home/poole/.i3/scripts/battery",
+				"/home/poole/.i3/scripts/cpu_usage",
+				"/home/poole/.i3/scripts/bandwidth.sh",
+				"/home/poole/Downloads/i3blocks/blocklets/network",
+				"/home/poole/.i3/scripts/partitions.sh",
+				"/home/poole/Downloads/i3blocks/blocklets/cpu_usage",
+				"/home/poole/.i3/scripts/memory",
+				"/home/poole/.config/mpv/mpv.conf",
+				"/home/poole/Dropbox/utils/cosas.txt",
+				"/home/poole/.tmux.conf.heart",
+				"/home/poole/random_stuff/Startpage/style.css",
+				"/home/poole/.config/mpv/lua-settings/torque-progressbar.conf",
+				"/home/poole/.livestreamerrc",
+				"/media/poole/XUBUNTU 15_/random_stuff/win10/livestreamerrc",
+				"/media/poole/XUBUNTU 15_/random_stuff/new_configs_xubuntu/mpv/input.conf",
+				"/media/poole/XUBUNTU 15_/random_stuff/new_configs_xubuntu/mpv/mpv.conf",
+				"/home/poole/.config/mpv/torque-progressbar.conf",
+				"/home/poole/.fehbg",
+				"/home/poole/.bashrc",
+				"/home/poole/Dropbox/utils/routermac.txt",
+				"/home/poole/.Xdefaults",
+				"/home/poole/.oh-my-zsh/themes/remy.zsh-theme",
+				"/home/poole/Dropbox/utils/configs/oh-my-zsh-theme/iterm2macbook.itermcolors",
+				"/home/poole/random_stuff/configs/oh-my-zsh-theme/mac_actual/remy.zsh-theme",
+				"/home/poole/random_stuff/configs/oh-my-zsh-theme/mac_actual/zshrcmac",
+				"/home/poole/.oh-my-zsh/themes/agnoster3.zsh-theme",
+				"/home/poole/.oh-my-zsh/themes/agnoster2.zsh-theme",
+				"/usr/share/icons/Paper/index.theme",
+				"/usr/share/icons/Adwaita/index.theme",
+				"/home/poole/dev/elementary-dropbox-mods/dropbox-elementary.sh",
+				"/home/poole/70-yes-bitmaps.conf",
+				"/home/poole/index.theme",
+				"/home/poole/random_stuff/configs/dot-files/bashrc_cyg",
+				"/home/poole/random_stuff/configs/dot-files/zshrc_cyg",
+				"/home/poole/.config/ranger/rc.conf",
+				"/home/poole/.i3/scripts/wallpaper.sh",
+				"/home/poole/random_stuff/primer_ncmpcppconf",
+				"/home/poole/70-force-bitmaps.conf",
+				"/home/poole/random_stuff/configs/firefox/tinyfirefox.css",
+				"/home/poole/random_stuff/configs/firefox/stylishcode.css",
+				"/home/poole/.i3/scripts/mpcPrevSong.sh",
+				"/home/poole/dev/shellscripts/hackertyper.sh",
+				"/home/poole/.config/gtk-2.0/gtkfilechooser.ini",
+				"/home/poole/.i3/scripts/tim",
+				"/home/poole/Downloads/configawesome",
+				"/home/poole/Downloads/Font-Awesome-4.5.0/README.md",
+				"/home/poole/.i3/scripts/i3blocks.conf",
+				"/home/poole/.i3/scripts/i3tray.conf",
+				"/home/poole/.i3/scripts/i3blocks2.conf",
+				"/etc/profile.d/infinality-settings.sh",
+				"/etc/fonts/conf.avail/52-infinality.conf",
+				"/home/poole/Dropbox/utils/sublime_license.txt",
+				"/home/poole/random_stuff/.config/gtk-2.0/gtkfilechooser.ini",
+				"/home/poole/random_stuff/.config/gtk-3.0/settings.ini",
+				"/home/poole/.nanorc",
+				"/home/poole/conf.nanorc",
+				"/home/poole/.i3/scripts/battery.py",
+				"/home/poole/.i3/scripts/i3lock-extra",
+				"/home/poole/.i3/scripts/lock2.sh",
+				"/home/poole/.compton.conf",
+				"/home/poole/.i3/scripts/lockmyi3",
+				"/home/poole/Downloads/i3blocks-1.4/scripts/lock.sh",
+				"/home/poole/.i3/scripts/load_average",
+				"/home/poole/.i3blocks.conf",
+				"/home/poole/.config/i3/config"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"wallpaper",
+					"pro-gotham",
+					"urxvt",
+					"geometry",
+					"savelines",
+					"url",
+					"launcher",
+					"URxvt*perl-lib:",
+					"firefox",
+					"URxvt*perl-ext-common:",
+					"URxvt.url-select",
+					"URxvt.url-select.launcher:",
+					"freenode",
+					"toggle",
+					"lock",
+					"URxvt.depth",
+					"cursorUnderline",
+					"colorize_config_reload_cb",
+					"set $base",
+					"status",
+					"set-option -g base-index 1",
+					"source",
+					"panel",
+					"bind_to_address",
+					"URxvt*background",
+					"$mod+Shift+w",
+					"$mod+p",
+					"$mod+Shift+p",
+					"lock",
+					"battery",
+					"$mod+Shift+s",
+					"i3lock",
+					"smart",
+					"new_window",
+					"256color"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"URxvt",
+					"rizon"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/poole/.i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15379,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										11658,
+										11658
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												12639,
+												12640
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												11542,
+												11543
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/TronLegacy.tmTheme",
+									"syntax": "Packages/Generic Config/GenericConfig.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 4132.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/poole/.i3/scripts/i3blocks5.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1927,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										102,
+										102
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/Generic Config/GenericConfig.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/poole/Dropbox/utils/configs/router_colegio.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3102,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1990,
+										1990
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/TronLegacy.tmTheme",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/poole/Dropbox/utils/cosas.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 187,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										168,
+										168
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/TronLegacy.tmTheme",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/poole/Dropbox/utils/lista_debitos.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 438,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										17,
+										17
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_name": "lista_debitos.txt",
+									"bh_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/TronLegacy.tmTheme",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/poole/.Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4666,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2472,
+										2472
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 492.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/poole/.Xdefaults",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1794,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1741,
+										1741
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/poole/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 241,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										241,
+										241
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/TronLegacy.tmTheme",
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 21.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"#weechat"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 124.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

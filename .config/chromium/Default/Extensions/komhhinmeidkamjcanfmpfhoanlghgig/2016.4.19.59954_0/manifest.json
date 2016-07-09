@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://192.168.1.118:4710/transmission/web/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "XAjOd7Cymq+jw9wz5I7KC9adMDvXIQdVrNEwevIzbKQ=",
+   "name": "http://192.168.1.118:4710/transmission/web/",
+   "version": "2016.4.19.59954"
+}

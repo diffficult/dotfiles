@@ -1,0 +1,3 @@
+#
+XF86MonBrightness{Up,Down}
+    brightness | {m,d,i}

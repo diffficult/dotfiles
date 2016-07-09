@@ -1,0 +1,21 @@
+2016/07/08-20:01:18.664 3390 Reusing MANIFEST /home/poole/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/07/08-20:01:18.664 3390 Recovering log #880
+2016/07/08-20:01:18.665 3390 Reusing old log /home/poole/.config/chromium/Default/Session Storage/000880.log 
+2016/07/08-20:01:42.350 4055 Level-0 table #884: started
+2016/07/08-20:01:42.358 4055 Level-0 table #884: 140156 bytes OK
+2016/07/08-20:01:42.360 4055 Delete type=0 #880
+2016/07/08-20:13:51.061 4055 Level-0 table #886: started
+2016/07/08-20:13:51.070 4055 Level-0 table #886: 69096 bytes OK
+2016/07/08-20:13:51.072 4055 Delete type=0 #883
+2016/07/08-20:13:56.672 4055 Level-0 table #888: started
+2016/07/08-20:13:56.681 4055 Level-0 table #888: 71737 bytes OK
+2016/07/08-20:13:56.684 4055 Delete type=0 #885
+2016/07/08-20:13:56.684 4055 Compacting 4@0 + 1@1 files
+2016/07/08-20:13:56.747 4055 Generated table #889@0: 22488 keys, 575100 bytes
+2016/07/08-20:13:56.747 4055 Compacted 4@0 + 1@1 files => 575100 bytes
+2016/07/08-20:13:56.749 4055 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/07/08-20:13:56.749 4055 Delete type=2 #886
+2016/07/08-20:13:56.749 4055 Delete type=2 #879
+2016/07/08-20:13:56.749 4055 Delete type=2 #888
+2016/07/08-20:13:56.750 4055 Delete type=2 #881
+2016/07/08-20:13:56.750 4055 Delete type=2 #884

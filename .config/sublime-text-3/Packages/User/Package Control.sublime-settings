@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Dayle Rees Color Schemes",
+		"Emmet",
+		"Generic Config",
+		"Git",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"Theme - Brogrammer",
+		"Theme - Dark Material",
+		"Theme - Spacegray",
+		"Theme - Vim Blackboard"
+	]
+}

@@ -1,0 +1,15 @@
+2016/07/08-20:01:13.722 3393 Reusing MANIFEST /home/poole/.config/chromium/Default/Extension State/MANIFEST-000001
+2016/07/08-20:01:13.722 3393 Recovering log #193
+2016/07/08-20:01:13.734 3393 Reusing old log /home/poole/.config/chromium/Default/Extension State/000193.log 
+2016/07/08-20:17:50.347 7700 Level-0 table #197: started
+2016/07/08-20:17:50.373 7700 Level-0 table #197: 1916354 bytes OK
+2016/07/08-20:17:50.376 7700 Delete type=0 #193
+2016/07/08-20:17:50.377 7700 Compacting 4@0 + 1@1 files
+2016/07/08-20:17:50.405 7700 Generated table #198@0: 10 keys, 10894 bytes
+2016/07/08-20:17:50.405 7700 Compacted 4@0 + 1@1 files => 10894 bytes
+2016/07/08-20:17:50.411 7700 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/07/08-20:17:50.411 7700 Delete type=2 #192
+2016/07/08-20:17:50.412 7700 Delete type=2 #197
+2016/07/08-20:17:50.412 7700 Delete type=2 #187
+2016/07/08-20:17:50.412 7700 Delete type=2 #189
+2016/07/08-20:17:50.413 7700 Delete type=2 #194

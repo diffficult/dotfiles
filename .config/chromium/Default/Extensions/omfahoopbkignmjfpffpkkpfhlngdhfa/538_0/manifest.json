@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [ "http://apiblog.youtube.com/*", "https://apiblog.youtube.com/*", "http://*.youtube.com/subscribe_embed\\?*", "https://*.youtube.com/subscribe_embed\\?*" ],
+      "exclude_matches": [  ],
+      "include_globs": [ "http://www.youtube.com/*", "https://www.youtube.com/*", "http://youtube.com/*", "https://youtube.com/*", "http://apis.google.com/*/widget/render/comments\\?*", "https://apis.google.com/*/widget/render/comments\\?*", "http://plus.googleapis.com/*/widget/render/comments\\?*", "https://plus.googleapis.com/*/widget/render/comments\\?*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://apis.google.com/*/widget/render/comments?*", "http://plus.googleapis.com/*/widget/render/comments?*", "http://raw.github.com/YePpHa/YouTubeCenter/master/*", "http://raw.githubusercontent.com/YePpHa/YouTubeCenter/master/*", "http://s.ytimg.com/yts/jsbin/*", "http://www.youtube.com/*", "http://youtube.com/*", "https://apis.google.com/*/widget/render/comments?*", "https://plus.googleapis.com/*/widget/render/comments?*", "https://raw.github.com/YePpHa/YouTubeCenter/master/*", "https://raw.githubusercontent.com/YePpHa/YouTubeCenter/master/*", "https://s.ytimg.com/yts/jsbin/*", "https://www.youtube.com/*", "https://yeppha.github.io/downloads/YouTubeCenter.meta.js", "https://youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "converted_from_user_script": true,
+   "description": "YouTube Center Developer Build contains all kind of different useful functions which makes your visit on YouTube much more entertaining.",
+   "key": "RPGhojIEhKSSznJHONFOzkV+WVvGJuBSqklDFN2JDM8=",
+   "name": "YouTube Center Developer Build",
+   "version": "538"
+}

@@ -1,0 +1,25 @@
+# Adblock Plus preferences
+version=4
+
+[Subscription]
+url=frequencyHeuristic
+title=frequencyHeuristic
+
+[Subscription filters]
+||google.com^$third-party
+||gstatic.com^$third-party
+||imgur.com^$third-party
+||googleusercontent.com^$third-party
+||disqus.com^$third-party
+||disquscdn.com^$third-party
+||sstatic.net^$third-party
+||reddit.com^$third-party
+||youtube.com^$third-party
+||ytimg.com^$third-party
+||ggpht.com^$third-party
+||twitter.com^$third-party
+||github.com^$third-party
+
+[Subscription]
+url=userYellow
+title=userYellow
