@@ -95,7 +95,7 @@ alias infinalityconf="sudo bash /etc/fonts/infinality/infctl.sh setstyle"
 
 alias rlxresources="xrdb ~/.Xresources"
 alias rlzshrc="source ~/.zshrc"
-alias winfetch="clear && fetch --ascii_distro windows"
+alias winfetch="clear && neofetch --ascii --ascii_distro windows"
 
 # Functions
 #
