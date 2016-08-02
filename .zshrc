@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/poole/.oh-my-zsh
+export ZSH=/home/poole/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -7,10 +7,12 @@
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="remy"
-ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
 #ZSH_THEME="sorin"
+ZSH_THEME="pure"
 #ZSH_THEME="flazz"
 #ZSH_THEME="intheloop"
+#ZSH_THEME="spaceship2"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -54,7 +56,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search per-directory-history virtualenv pip)
+plugins=(git web-search per-directory-history virtualenv pip ssh-agent archlinux colored-man-pages common-aliases)
 
 # User configuration
 
@@ -88,7 +90,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias infinalityconf="sudo bash /etc/fonts/infinality/infctl.sh setstyle"
+#alias infinalityconf="sudo bash /etc/fonts/infinality/infctl.sh setstyle"
 
 #Powerline
 #. /home/poole/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
