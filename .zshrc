@@ -9,7 +9,7 @@ export ZSH=/home/poole/.oh-my-zsh
 #ZSH_THEME="remy"
 #ZSH_THEME="spaceship"
 #ZSH_THEME="sorin"
-ZSH_THEME="pure"
+ZSH_THEME="pure2"
 #ZSH_THEME="flazz"
 #ZSH_THEME="intheloop"
 #ZSH_THEME="spaceship2"
@@ -56,7 +56,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search per-directory-history virtualenv pip ssh-agent archlinux colored-man-pages common-aliases)
+plugins=(git web-search per-directory-history virtualenv pip ssh-agent archlinux colored-man-pages common-aliases zsh-autosuggestions)
 
 # User configuration
 
@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias rlxresources="xrdb ~/.Xresources"
 alias rlzshrc="source ~/.zshrc"
-alias winfetch="clear && neofetch --ascii --ascii_distro windows"
+alias winfetch="clear && neofetch --ascii --ascii_distro crux_small"
 
 # Functions
 #

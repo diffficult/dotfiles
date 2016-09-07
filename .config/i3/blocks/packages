@@ -2,13 +2,14 @@
 
 PACKAGES=$(pacman -Qu)
 
-URGENT_VALUE=25
+URGENT_VALUE=15
 
 if [[ $? -gt 0 ]]; then
   return
 fi
 
 PACKAGE_COUNT=$(echo "${PACKAGES}" | wc -l)
+#PACKAGE_COUNT=$(echo -n "${PACKAGES}" | wc -l)
 
 if [[ "${PACKAGE_COUNT}" -gt 0 ]]; then
   echo "${PACKAGE_COUNT}" # full-text

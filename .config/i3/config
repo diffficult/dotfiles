@@ -31,7 +31,8 @@ set $base0F #1f222d
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
 # font pango:DejaVu Sans Mono 10
-  font pango:glisp 8
+#  font pango:glisp 8
+font pango:yuki 8
 #  pango=true
 #  floating_modifier $mod
 #  hide_edge_borders both
@@ -231,18 +232,22 @@ set $workspace2 "2: "
 set $workspace3 "3: "
 set $workspace4 "4: "
 set $workspace5 "5: "
-set $workspace6 "6: "
-set $workspace7 "7: "
+#set $workspace6 "6: "
+set $workspace6 "6: "
+#set $workspace7 "7: "
 set $workspace7 "7: "
 #set $workspace7 "7: "
 set $workspace8 "8: "
+#set $workspace8 "8: "
 set $workspace9 "9: "
 set $workspace10 "10: "
 #set $workspace10 "10: "
 
 #gaps config
-workspace $workspace2 gaps inner 10
+workspace $workspace2 gaps inner 30
 workspace $workspace2 gaps outer 0
+workspace $workspace8 gaps inner 30
+workspace $workspace8 gaps outer 0
 
 # Switch to workspace ---------------------------------------------------------------------------------------------------------
 
@@ -344,12 +349,13 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks -c ~/.config/i3/conf/myblocks.conf
         #i3bar_command i3bar
-        id bar-1
+        id 1
         tray_output LVDS1
         output LVDS1
         height 16
         #mode dock
-        font pango: glisp, FontAwesome 8
+        font pango: lemon, FontAwesome 8
+        #font pango: glisp, FontAwesome 9
         #tray_output primary
         position top
         colors {
@@ -409,7 +415,7 @@ for_window [class="File-roller"] floating enable
 for_window [class="URxvt"] border none
 for_window [class="Steam"] floating enable, border normal
 for_window [class="mpv"] floating enable, border none
-for_window [class="Virt-manager"] floating enable
+#for_window [class="Virt-manager"] floating enable
 for_window [class="Nautilus"] border none
 for_window [class="chromium"] border none
 #for_window [class="chromium-browser"] border none
@@ -420,6 +426,10 @@ for_window [class="Pamac-updater"] floating enable, border none
 for_window [class="keepassx2"] floating enable
 
 #Execute on startup --------------------------------------------------------------------------------------------------------
+
+#xscreensaver
+exec --no-startup-id xscreensaver -no-splash
+
 #mpd 
 exec --no-startup-id mpd .mpd/mpd.conf
 
@@ -432,13 +442,14 @@ exec --no-startup-id feh --bg-scale "$(find /usr/share/backgrounds/ -type f |sor
 #Dropbox tray icon
 #optional command only dropbox start -i yo ucan also check dropbox status with dropbox status
 #exec --no-startup-id dropbox start -i
+
 exec --no-startup-id /bin/bash -c "sleep 30 && dropbox stop && env DBUS_SESSION_BUS_ADDRESS="" dropbox start -i"
 
 #network tray applet nm-applet
 exec --no-startup-id "nm-applet --sm-disable &"
 
 #bluetooth tray applet blueman-applet
-exec --no-startup-id blueman-applet
+#exec --no-startup-id blueman-applet
 
 #Synaptic config, disable edge scrolling
 exec --no-startup-id "synclient VertEdgeScroll=0"
