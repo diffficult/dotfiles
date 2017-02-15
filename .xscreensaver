@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.35 for poole on Wed Aug 24 23:18:11 2016.
+# Written by xscreensaver-demo 5.36 for rook on Mon Jan  9 22:31:37 2017.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:05:00
@@ -189,8 +189,8 @@ programs:								      \
 				fontglide -root				    \n\
   GL: 				gleidescope -root			    \n\
   GL: 				glknots -root				    \n\
-  TrueColor: 			glmatrix -root -delay 48855 -speed 2.8137     \
-				  -no-fog -no-rotate			    \n\
+  TrueColor: 			glmatrix -root -delay 81679 -density 10	      \
+				  -speed 2.1 -no-fog -no-waves -no-rotate   \n\
 - GL: 				glslideshow -root			    \n\
   GL: 				hypertorus -root			    \n\
 - GL: 				jigglypuff -root			    \n\
@@ -266,6 +266,11 @@ programs:								      \
   GL: 				hydrostat -root				    \n\
   GL: 				raverhoop -root				    \n\
   GL: 				unicrud -root				    \n\
+  GL: 				cubestack -root				    \n\
+  GL: 				cubetwist -root				    \n\
+  GL: 				discoball -root				    \n\
+  GL: 				hexstrut -root				    \n\
+  GL: 				splodesic -root				    \n\
 
 
 pointerPollTime:    0:00:05

@@ -5,11 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"ApacheConf.tmLanguage",
 		"BracketHighlighter",
+		"Color Highlighter",
+		"Compare Side-By-Side",
+		"CSS3",
 		"Dayle Rees Color Schemes",
 		"Emmet",
 		"Generic Config",
 		"Git",
+		"HTML5",
 		"Markdown Preview",
 		"Material Theme",
 		"Package Control",

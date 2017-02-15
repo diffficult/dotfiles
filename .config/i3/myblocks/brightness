@@ -10,11 +10,16 @@
 #
 #
 
-brightn=$(cat /sys/class/backlight/acpi_video0/brightness)
+#brightn=$(cat /sys/class/backlight/acpi_video0/brightness)
+#brightn=$(cat /sys/class/backlight/intel_backlight/brightness)
+
+brightn=$(cat /sys/class/backlight/acpi_video0/actual_brightness)
 
 ##echo $brightn
+#brpercent=$(($brightn * 100 / 15));
+brpercent=$(($brightn * 100 / 1500));
+#brpercent=$(($brightn / 4));
 
-brpercent=$(($brightn * 100 / 15));
 
 ##echo $brpercent%
 
