@@ -40,7 +40,7 @@ set $base0F #1f222d
 #set $darkcyan    #689d6a
 #set $cyan        #8ec07c
 #set $darkwhite   #a89984
-#set $white       #ebdbb2"Nadie te va a hacer"Nadie te va a hacer tortas más ricas que yo" tortas más ricas que yo"
+#set $white       #ebdbb2
 # Use custom colors for black
 #set $black       #282828
 #set $darkblack   #1d2021
