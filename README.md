@@ -1,5 +1,5 @@
 # dotfiles
-my dotfiles
+Old basic dotfiles for my laptops
 
 1. basic config files
   * .bashrc
